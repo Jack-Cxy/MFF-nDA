@@ -34,4 +34,33 @@ pip install https://data.pyg.org/whl/torch-2.1.0%2Bcu121/torch_spline_conv-1.2.2
 pip install torch-geometric
 ```
 
+# Prepare
+
+```
+${DATA_ROOT}
+├── MFF-nDA
+│   ├── data
+│   │   ├──adj.csv *(adjacent matrix)*
+│   │   ├──ncRNA_sim_3.txt
+│   │   │   ├──seq_sim.txt
+│   │   │   ├──Func_sim.txt
+│   │   │   ├──GIPKs.txt
+│   │   ├──disease_sim_2.txt
+│   │   │   ├──doid_sim.txt
+│   │   │   ├──GIPKd.txt
+│   ├── MSNF
+│   │   ├──heterogeneous_3_2.txt
+│   ├── MFF
+│   │   ├──Transformer
+│   │   │   ├──trans_feat.npy
+│   │   ├──GCN
+│   │   │   ├──gcn_feat.npy
+│   │   ├──GAT
+│   │   │   ├──gat_feat.npy
+│   ├── model.py
+│   ├── utils.py
+│   ├── metrics.py
+│   ├── main.py
+
+```
 
