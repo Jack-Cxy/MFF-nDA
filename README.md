@@ -36,6 +36,8 @@ pip install torch-geometric
 
 # Prepare
 
+[Click the link to download code and data](https://1drv.ms/f/c/9f80329bc8ba4280/EvM7tdJ9-KREsyrqcpm-vWgBPhddPQ4Ss1NoiKLUjjeqkg?e=T0eegm)
+
 ```
 ${DATA_ROOT}
 ├── MFF-nDA
