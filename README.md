@@ -2,7 +2,7 @@
 
 MFF-nDA is a deep learning model for predicting some ncRNA-disease associations.
 
-![Alt text](figure/flowchart.jpg?raw=true "MFF-nDA pipeline")
+![Alt text](figure/flowchart.png?raw=true "MFF-nDA pipeline")
 
 # Getting Started
 
