@@ -1,4 +1,4 @@
-# MFF-nDA: : A General System Framework for ncRNA-Disease Association Prediction Based on Multi-module Fusion
+# MFF-nDA: A Computational Model for ncRNA–Disease Association Prediction Based on Multimodule Fusion
 
 MFF-nDA is a deep learning model for predicting some ncRNA-disease associations.
 
