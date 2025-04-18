@@ -59,6 +59,5 @@ pip install torch-geometric
 │   │   ├──GAT
 │   │   │   ├──gat_feat
 │   ├── MLP
-│   ├── main
 ```
 
