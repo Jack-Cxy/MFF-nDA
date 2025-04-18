@@ -39,30 +39,26 @@ pip install torch-geometric
 [Click the link to download all code and data](https://1drv.ms/f/c/9f80329bc8ba4280/EvM7tdJ9-KREsyrqcpm-vWgBPhddPQ4Ss1NoiKLUjjeqkg?e=T0eegm)
 
 ```
-${DATA_ROOT}
 ├── MFF-nDA
 │   ├── data
-│   │   ├──adj.csv *(adjacent matrix)*
-│   │   ├──ncRNA_sim_3.txt
-│   │   │   ├──seq_sim.txt
-│   │   │   ├──Func_sim.txt
-│   │   │   ├──GIPKs.txt
-│   │   ├──disease_sim_2.txt
-│   │   │   ├──doid_sim.txt
-│   │   │   ├──GIPKd.txt
+│   │   ├──adj *(adjacent matrix)*
+│   │   ├──ncRNA_sim_3
+│   │   │   ├──seq_sim
+│   │   │   ├──Func_sim
+│   │   │   ├──GIPKn
+│   │   ├──disease_sim_2
+│   │   │   ├──doid_sim
+│   │   │   ├──GIPKd
 │   ├── MSNF
-│   │   ├──heterogeneous_3_2.txt
+│   │   ├──heterogeneous_3_2
 │   ├── MFF
 │   │   ├──Transformer
-│   │   │   ├──trans_feat.npy
+│   │   │   ├──trans_feat
 │   │   ├──GCN
-│   │   │   ├──gcn_feat.npy
+│   │   │   ├──gcn_feat
 │   │   ├──GAT
-│   │   │   ├──gat_feat.npy
-│   ├── model.py
-│   ├── utils.py
-│   ├── metrics.py
-│   ├── main.py
-
+│   │   │   ├──gat_feat
+│   ├── MLP
+│   ├── main
 ```
 
